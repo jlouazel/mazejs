@@ -7,18 +7,23 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack -p",
+    "flow": "flow check",
     "lint": "eslint lib/"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
     "babel-preset-es2015": "^6.18.0",
     "eslint": "^3.9.1",
     "eslint-config-airbnb": "latest",
-    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-flowtype": "^2.29.1",
     "eslint-plugin-import": "^2.1.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-jsx-a11y": "2.2.3",
     "eslint-plugin-react": "^6.6.0",
+    "flow-bin": "^0.37.4",
     "webpack": "beta"
   }
 }
