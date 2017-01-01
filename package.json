@@ -6,7 +6,7 @@
   "author": "Jean-Baptiste Louazel <jb.louazel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack",
     "flow": "flow check",
     "lint": "eslint lib/"
   },
