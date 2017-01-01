@@ -5,6 +5,7 @@
       "flowtype"
   ],
   "rules": {
+    "no-plusplus": 0,
     "no-underscore-dangle": 0
   }
 }
